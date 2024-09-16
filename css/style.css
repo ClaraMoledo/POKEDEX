@@ -1,0 +1,394 @@
+/* body */
+body {
+    background-color: #000000;
+    text-align: center;
+}
+body:hover{
+    cursor: pointer;
+}
+
+/* header */
+header {
+    background: linear-gradient(360deg,black,#343434,#bcbcbc, white, white, white);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.5rem;
+    width: 100%;
+}
+
+.header {
+    margin-top: 8rem;
+}
+
+header:hover {
+    background: linear-gradient(360deg,black,black,#707070);
+}
+
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Container do main  */
+.cssmain{
+    display:flex;
+    flex-direction: column;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 5rem;
+}
+
+/* Container do card */
+.css-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
+
+/* Barra de pesquisa(Buscar) */
+.css-main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -2rem; 
+    padding-left: 2rem;
+}
+
+.css-main3 {
+    font-size: -1rem;
+}
+
+.css-card {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Card do Pokémon */
+.java-card {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+#java-card {
+    max-width: 300px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#java-img {
+    width: 290px;
+    height: 290px;
+    align-items: center;
+}
+
+#java-nome {
+    font-size: 2rem;
+}
+
+#java-tipo {
+    padding: 1rem;
+}
+
+#java-altura {
+    padding: 1rem;
+}
+
+#java-peso {
+    padding: 1rem;
+}
+
+#java-forca {
+    padding: 1rem;
+}
+
+/* Botões de navegação */
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    margin: 0 20px;
+    overflow: hidden;
+    box-shadow: #ffffff;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button > svg {
+    vertical-align: middle;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 1.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+button > svg:hover {
+    color: #a00303;
+}
+
+button:disabled {
+    background-color: #ccc;
+    border-radius: 3rem;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Mensagem de erro */
+#java-error {
+    color: rgb(136, 8, 4);
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*Botão de Busca*/
+#java-busca {
+    background-color:#800000;
+    color:rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+
+#java-busca:hover {
+    background-color: #000000;
+    color: #800000;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(180deg, black,black,black,#707070,#b0b6b6, white);
+    padding: 2rem;
+    height: 5rem;
+}
+footer:hover {
+    background: linear-gradient(360deg,#707070,black,black);
+}
+
+.css-footer {
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.css-footer:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* Estilos para diferentes tipos de Pokémon */
+/* Normal */
+.normal {
+    background: linear-gradient(160deg, #707070,#b0b6b6, white);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.normal:hover {
+    background: linear-gradient(160deg,  white,#b0b6b6,#707070);
+    color:#000000;
+}
+
+/* Fogo */
+.fire {
+    background: linear-gradient(160deg, #a00303,#ff0000,#ff7300,#ffc800);
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+.fire:hover{
+    background: linear-gradient(160deg,#ffc800,#ff7300,#ff0000,#a00303);
+    color: #ffffff;
+}
+
+/* Água */
+.water {
+    background: linear-gradient(160deg, #0033ff,#0062ff,#00aaff,#00d5ff);
+    box-shadow: 0px 0px 20px rgb(4, 0, 255);
+}
+.water:hover {
+    background: linear-gradient(160deg,#0033ff,#00aaff,#00d5ff,#00aaff,#0062ff,#0033ff);
+    color: #00ffbf;
+}
+
+/* Grama */
+.grass {
+    background: linear-gradient(160deg, #037711,#319b03,#03b020,#00ff40);
+    box-shadow: 0px 0px 20px rgb(85, 255, 0);
+}
+.grass:hover {
+    background: linear-gradient(160deg, #01cb22,#17ff51,#03b020,#037711);
+    color: #044514;
+}
+
+/* Elétrico*/
+.electric {
+    background: linear-gradient(160deg, #ff8800,#ffc800,#fcff2e,#eeff00);
+    box-shadow: 0px 0px 20px rgb(255, 255, 0);
+}
+.electric:hover{
+    background: linear-gradient(160deg,orange,#ffc800,#fcff2e,#ff8800,red);
+    color: rgb(8, 0, 255);
+}
+
+/* Psíquico */
+.psychic {
+    background: linear-gradient(160deg, #8f20fe,#a600ff,#e100ff,#ff00dd);
+    box-shadow: 0px 0px 20px rgb(247, 0, 255);
+}
+.psychic:hover{
+    background: linear-gradient(160deg,#5701c1,#b222ff,#ff00dd,#7300ff, #5701c1);
+    color: #ffffff;
+}
+
+/* Gelo */
+.ice {
+    background: linear-gradient(160deg, #0fc3ff,#00e1ff,#86f0ff,#cdfbfe);
+    box-shadow: 0px 0px 20px rgb(0, 255, 255);
+}
+.ice:hover{
+    background: linear-gradient(160deg,rgb(0, 116, 142), #02b1d9,#7fecff,#5de1ff,#01536e);
+    color:rgb(0, 51, 255);
+}
+
+/* Inseto */
+.bug {
+    background: linear-gradient(160deg, #5c9900,#7acc00,#aeff00,#d4ff00);
+    box-shadow: 0px 0px 20px rgb(172, 191, 0);
+}
+.bug:hover{
+    background: linear-gradient(160deg,#5c9900, yellow,#d4ff00,#aeff00,#7acc00);
+    color:rgb(11, 71, 11);
+}
+
+/* Pedra */
+.rock {
+    background: linear-gradient(160deg, #753900,#a85100,#d17a00,#ff9500);
+    box-shadow: 0px 0px 20px rgb(159, 80, 0);
+}
+.rock:hover{
+    background: linear-gradient(160deg,#753900, #a85100,#ff9500,#d17a00,#753900);
+    color:rgb(255, 255, 255);
+}
+
+/* Fantasma */
+.ghost {
+    background: linear-gradient(160deg, #2e0264,#430094,#6106d0,#8000ff);
+    box-shadow: 0px 0px 20px rgb(77, 12, 173);
+    color: white;
+}
+.ghost:hover{
+    background: linear-gradient(160deg,black, #430094,#8000ff,#6106d0,black);
+    color:rgb(213, 168, 246);
+}
+
+/* Fada */
+.fairy {
+    background: linear-gradient(160deg, #ff00c8,#ff42dc,#fc52ff,#ff70e0,#faabf7);
+    box-shadow: 0px 0px 20px rgb(250, 96, 250);
+}
+.fairy:hover{
+    background: linear-gradient(160deg,#ff70e0,#ec83e8,#ff70e0, #ff70e0,#ff00c8);
+    color: rgb(124, 53, 15);
+}
+
+/* Lutador */
+.fighting {
+    background: linear-gradient(160deg, #8f2400,#d13f00,#e68600,#ffa629);
+    box-shadow: 0px 0px 20px rgb(162, 23, 15);
+}
+.fighting:hover {
+    background: linear-gradient(160deg, #e68600,#ffa629,#d13f00,#8f2400);
+    color: #fff703;
+}
+
+/* Veneno */
+.poison {
+    background: linear-gradient(160deg, #5701c1,#7300ff,#a90aff,#b222ff);                        
+    box-shadow: 0px 0px 20px rgb(153, 0, 255);
+}
+.poison:hover{
+    background: linear-gradient(160deg,#5701c1,#b222ff,#a90aff, #5701c1,#7300ff);
+    color: #ffffff;
+}
+
+/* Terra */
+.ground {
+    background: linear-gradient(160deg, #6b3900,#a35f00,#f07400,#ffc800);
+    box-shadow: 0px 0px 20px rgb(255, 187, 0);
+}
+.ground:hover{
+    background: linear-gradient(160deg,#a35f00,#f07400,#ffc800, #f07400,#a35f00);
+    color: #ffffff;
+}
+
+/* Voador */
+.flying {
+    background: linear-gradient(160deg, #00aaff,#00bbe0,#00f6fa,#fcfdfc);
+    box-shadow: 0px 0px 20px rgb(1, 251, 255);
+}
+.flying:hover {
+    background: linear-gradient(160deg,rgb(0, 157, 255), #bdf3f5,#77e7eb,rgb(74, 67, 255));
+    color: rgb(41, 3, 103);
+}
+
+/* Aço */
+.steel {
+    background: linear-gradient(160deg, #8f8f8f,#9c9c9c,#b3b3b3,#ffffff);
+    box-shadow: 0px 0px 20px rgb(137, 137, 137);
+}
+.steel:hover {
+    background: linear-gradient(160deg,black, #8f8f8f,#c0c0c0,black);
+    color: rgb(255, 255, 255);
+}
+
+/* Dragão */
+.dragon {
+    background: linear-gradient(160deg, #ff0000,#ff5900,#ff5900,#ff9500,#ff9500);
+    box-shadow: 0px 0px 20px rgba(255, 98, 0, 0.993);
+}
+.dragon:hover {
+    background: linear-gradient(160deg,#7b00ff, #ff3c00,#ff0000,#7b00ff);
+    color: yellow;
+}
+
+/* Sombrio */
+.dark {
+    background: linear-gradient(160deg, #000000,#000000,#171717,#616161,#ededed);              
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: white;
+}
+.dark:hover{
+    background: linear-gradient(160deg,#ededed,#616161,#171717, #000000,#000000);              
+    color: rgb(255, 1, 1);
+}
